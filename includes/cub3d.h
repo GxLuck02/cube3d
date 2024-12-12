@@ -6,7 +6,7 @@
 /*   By: ttreichl <ttreichl@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/27 17:03:40 by shmoreno          #+#    #+#             */
-/*   Updated: 2024/12/12 15:26:30 by ttreichl         ###   ########.fr       */
+/*   Updated: 2024/12/12 17:40:37 by ttreichl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -266,5 +266,9 @@ int		ft_check_dir(t_map *map);
 
 // FUNCTION MINIMAP /-\ srcs/bonus/minimap.c
 void	draw_minmap(t_game *game);
+
+// FUNCTION MINIMAP /-\ srcs/bonus/minimap_utils.c
+int		ft_isspace(char c);
+void	chose_color_tiles_and_draw_it(t_game *game, t_coord coord, t_coord pixel);
 
 #endif

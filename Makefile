@@ -28,7 +28,8 @@ SRC_2 = srcs/errors/errors.c \
 	srcs/utils/parsing_utils.c \
 	srcs/utils-mlx/function_mlx.c
 #BONUS = srcs/utils-mlx/function_mlx.c
-BONUS = srcs/bonus/minimap.c
+BONUS = srcs/bonus/minimap.c \
+	srcs/bonus/minimap_utils.c 
 
 OBJ_1 = $(patsubst %.c,$(OBJ_DIR)%.o,$(SRC_1))
 OBJ_2 = $(patsubst %.c,$(OBJ_DIR)%.o,$(SRC_2))
