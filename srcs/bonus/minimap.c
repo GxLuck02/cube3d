@@ -6,7 +6,7 @@
 /*   By: ttreichl <ttreichl@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 15:08:36 by shmoreno          #+#    #+#             */
-/*   Updated: 2024/12/12 18:20:35 by ttreichl         ###   ########.fr       */
+/*   Updated: 2024/12/12 18:28:59 by ttreichl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,10 +41,10 @@ void	draw_tiles(t_game *game)
 	}
 }
 
-void	draw_player_direction(t_game *game)
+/*void	draw_player_direction(t_game *game)
 {
 	
-}
+}*/
 
 
 void	draw_player(t_game *game)
@@ -63,7 +63,7 @@ void	draw_player(t_game *game)
 		}
 		pixel.y++;
 	}
-	draw_player_direction(game);
+	//draw_player_direction(game);
 }
 
 void	draw_minmap(t_game *game)
